@@ -1,0 +1,107 @@
+header {
+    background: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.main_nav li {
+    display: inline;
+}
+
+#top {
+    background: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro {
+    background: green;
+}
+
+#subscribe {
+    background: purple;
+    padding-top: 60px;
+    align-content: flex-end;
+}
+
+#top_bottom {
+    background: magenta;
+
+}
+
+#top_top {
+    background: brown;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#bottom {
+    background: gold;
+}
+
+#bottom_headline {
+
+    background: chartreuse;
+    text-align: center;
+}
+
+#top_bottom {
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+}
+
+#bottom_trending {
+    background: goldenrod;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottom_left {
+    background: blueviolet;
+}
+
+#bottom_right {
+    background: navy;
+}
+
+#bottom_left img{
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+    padding-bottom: 45px;
+}
+
+#bottom_left p{
+    float: right;
+    margin-left: 10px;
+}
+
+#bottom_right img{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+
+}
+
+#bottom_info {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondary_nav li {
+    background: cadetblue;
+    display: inline;
+}
+
+footer{
+    background: cornflowerblue;
+    text-align: center;
+}
+
+#bottomButton{
+    margin-right: 80px;
+}
