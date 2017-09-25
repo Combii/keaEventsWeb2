@@ -1,17 +1,16 @@
 header {
     background: grey;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-
 }
 
 .main_nav li {
     display: inline;
+    background: cadetblue;
 }
 
 #top {
-    background: beige;
+    background: cornflowerblue;
     display: flex;
     flex-direction: column;
 }
