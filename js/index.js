@@ -32,5 +32,3 @@ app.get('/about', (req, res) => {
 });
 
 app.listen(process.env.PORT || 8080, () => console.log('All is ok!'));
-
-console.log("Listen on 3000");
