@@ -9,6 +9,13 @@ const app = express();
 
 app.use(express.static(path.resolve(__dirname, '../public/')));
 
+app.get('/contact', (req, res) => {
+    res.send({
+        name: "Kea Events",
+        email: "kea@mail.com",
+        address: "Copenhagen"
+    });
+});
 
 app.get('/contact', (req, res) => {
     res.send({
@@ -24,6 +31,6 @@ app.get('/about', (req, res) => {
     });
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 8080, () => console.log('All is ok!'));
 
 console.log("Listen on 3000");
