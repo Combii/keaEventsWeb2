@@ -1,6 +1,7 @@
 header {
     background: grey;
     display: flex;
+
     justify-content: space-between;
 }
 
@@ -67,15 +68,15 @@ header {
 }
 
 #bottom_left img{
-    width: 150px;
-    height: 100px;
+    width: 290px;
+    height: 190px;
     margin: 15px;
     padding-bottom: 45px;
 }
 
 #bottom_left p{
     float: right;
-    margin-left: 10px;
+    padding-top: 10px;
 }
 
 #bottom_right img{
