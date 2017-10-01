@@ -7,7 +7,8 @@ const now = new Date();
 
 const app = express();
 
-app.use(express.static(path.resolve(__dirname, '../public/')));
+app.use(express.static(path.resolve(__dirname, '../public')));
+app.use(express.static(path.resolve(__dirname, '../public/message-page-initial')));
 
 app.get('/contact', (req, res) => {
     res.send({
@@ -31,4 +32,8 @@ app.get('/about', (req, res) => {
     });
 });
 
-app.listen(process.env.PORT || 8080, () => console.log('All is ok!'));
+app.get('/message', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../public/message-page-initial/messagePage.html'));
+});
+
+app.listen(process.env.PORT || 8080, () => console.log('All is ok! Listening on port 8080'));
