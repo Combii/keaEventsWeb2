@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
     $("#changeColorBtn").click(function(){
-        $('*').css('background', 'transparent');
+        $("*").css('background', 'transparent');
+        $("#changeColorBtn").hide();
     });
 });
